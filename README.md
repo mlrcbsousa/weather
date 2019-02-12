@@ -1,3 +1,11 @@
+#### GoRails API tutorials
+Uses knock
+Then raw JWT
+Then JWT with Devise manually configured
+Then some JSON:API formatting
+
+
+
 # README
 
 This README would normally document whatever steps are necessary to get the
