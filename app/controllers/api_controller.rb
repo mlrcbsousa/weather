@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class ApiController < ApplicationController
-  include Knock::Authenticable
+  # include Knock::Authenticable
 
   before_action :authenticate_user
   before_action :set_default_format

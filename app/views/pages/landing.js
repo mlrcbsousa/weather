@@ -1,3 +1,4 @@
+// using knock implementation
 // used in client side to generate jwt to authenticate further front end calls for info to server api
 let http = new XMLHttpRequest();
 let url = "/api/v1/user_token";
