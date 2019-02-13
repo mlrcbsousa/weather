@@ -1,7 +1,9 @@
 class Api::V1::LocationsController < ApiController
   before_action :set_location
+  before_action :authenticate_user!
 
   def show
+    render json: @location, include: ['recordings']
   end
 
   private
