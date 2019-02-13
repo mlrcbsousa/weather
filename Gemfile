@@ -63,3 +63,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # knock - includes jwt dependency
 # gem 'knock', '~> 2.1', '>= 2.1.1'
+
+gem 'devise'
+gem 'jwt'
